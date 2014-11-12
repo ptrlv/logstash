@@ -1,4 +1,8 @@
-logstash
-========
+Logstash configs and grok patterns
+==================================
 
-configs and patterns
+Logstash configuration files and grok patterns used in-house. Log formats include:
+
+* syslog
+* gridftp
+* squid

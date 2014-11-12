@@ -1,0 +1,1 @@
+SQUID ((%{DATA:squid_timestamp_unix})\s+(%{INT:squid_time_elapsed_ms:int}) (%{IPV4:squid_client_ip}) (%{DATA:squid_action})/(%{INT:squid_reply_code}) (%{INT:squid_request_size:int}) (%{WORD:squid_method}) (%{URI:squid_request_uri}) - (%{WORD:squid_heirarchy})/(%{IPV4:squid_dest_ip}|%{HOST:squid_dest_peer}|-) (%{WORD:squid_content_type})/(%{NOTSPACE:squid_content_object}))
