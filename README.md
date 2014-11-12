@@ -6,3 +6,4 @@ Logstash configuration files and grok patterns used in-house. Log formats includ
 * syslog
 * gridftp
 * squid
+* apache
