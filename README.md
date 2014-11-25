@@ -7,3 +7,4 @@ Logstash configuration files and grok patterns used in-house. Log formats includ
 * gridftp
 * squid
 * apache
+* SGE
